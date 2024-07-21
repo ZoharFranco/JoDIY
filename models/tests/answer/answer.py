@@ -13,3 +13,6 @@ class Answer(BaseModel):
     question_id: UUID
     text: str
     answer_evaluation: AnswerEvaluation
+
+
+
