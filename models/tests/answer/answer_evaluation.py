@@ -10,7 +10,5 @@ class AnswerEvaluation(BaseModel):
     id: UUID = Field(default_factory=uuid4)
     created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
-    question_id: UUID
-    correction: bool
     feedback: Optional[str] = None
     score: Optional[float] = None
