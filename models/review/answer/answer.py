@@ -3,7 +3,7 @@ from uuid import UUID, uuid4
 
 from pydantic import Field, BaseModel
 
-from models.tests.answer.answer_evaluation import AnswerEvaluation
+from models.review.answer.answer_evaluation import AnswerEvaluation
 
 
 class Answer(BaseModel):

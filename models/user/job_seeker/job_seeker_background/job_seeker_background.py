@@ -2,7 +2,7 @@ from typing import List
 
 from pydantic import BaseModel
 
-from models.users.job_seeker.job_seeker_background.attributes import Experience, Education, Skill
+from models.user.job_seeker.job_seeker_background.attributes import Experience, Education, Skill
 
 
 class JobSeekerBackground(BaseModel):
